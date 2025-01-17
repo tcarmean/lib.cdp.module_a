@@ -7,4 +7,4 @@ set(CMAKE_C_STANDARD 99)
 find_package(CMakeDeps)
 find_package(CMakeToolchain)
 
-add_executable(main main.c)
+add_library(main main.c)
