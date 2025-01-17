@@ -3,7 +3,8 @@ project(main C)
 
 set(CMAKE_C_STANDARD 99)
 
-include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
-conan_basic_setup()
+# Include Conan dependencies
+find_package(CMakeDeps)
+find_package(CMakeToolchain)
 
 add_executable(main main.c)
