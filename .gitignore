@@ -12,3 +12,4 @@ deactivate_conanrun.sh
 
 # Build directory
 build/
+CMakeUserPresets.json
