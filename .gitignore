@@ -1,4 +1,3 @@
-build/
 # Conan and CMake generated files
 CMakePresets.json
 cmakedeps_macros.cmake
