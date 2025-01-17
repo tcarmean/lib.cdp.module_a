@@ -1,9 +1,5 @@
 # lib.cdp.module_a
 
-### Commands
-
-# Project Name
-
 ## Build Instructions
 
 ### Prerequisites
