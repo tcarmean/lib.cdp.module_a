@@ -11,6 +11,7 @@ class ModuleAConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch"
     exports_sources = "CMakeLists.txt", "src/*", "include/*"
     package_type = "shared-library"
+    languages = "C"  # Important to remove compiler.cppstd/compiler.libcxx from config
 
     def layout(self):
         cmake_layout(self)
