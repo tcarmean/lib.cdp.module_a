@@ -6,5 +6,11 @@ set(CMAKE_C_STANDARD 99)
 add_library(module_a src/module_a.c)
 target_include_directories(module_a PUBLIC include)
 
+set_target_properties(module_a PROPERTIES PUBLIC_HEADER "src/module_a.h")
 
 install(TARGETS module_a)
+
+
+
+
+
